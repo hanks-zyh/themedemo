@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="76dp"
+             android:background="?attr/themeContentBg"
+             android:foreground="?android:selectableItemBackground"
+             android:orientation="vertical"
+             android:paddingLeft="16dp"
+             android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="18dp"
+        android:text="李白"
+        android:textColor="?themeTextColor1"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="42dp"
+        android:text="年龄：566"
+        android:textColor="?themeTextColor2"
+        android:textSize="12sp"/>
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="?attr/themeDividerColor"/>
+</FrameLayout>

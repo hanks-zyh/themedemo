@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="themeContentBg" format="color|reference"/>
+    <attr name="themeWindowBg" format="color|reference"/>
+    <attr name="themeTextColor1" format="color|reference"/>
+    <attr name="themeTextColor2" format="color|reference"/>
+    <attr name="themeDividerColor" format="color|reference"/>
+    <attr name="themeToolbarTextColor" format="color|reference"/>
+</resources>

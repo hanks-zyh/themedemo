@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="CTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="themeContentBg">#ffffff</item>
+        <item name="themeWindowBg">#f1f1f1</item>
+        <item name="themeTextColor1">#343434</item>
+        <item name="themeTextColor2">#868686</item>
+        <item name="themeDividerColor">#f1f1f1</item>
+        <item name="themeToolbarTextColor">#ffffff</item>
+    </style>
+
+    <style name="CThemeNight" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#313131</item>
+        <item name="colorPrimaryDark">#202020</item>
+        <item name="colorAccent">#767676</item>
+        <item name="themeContentBg">#3c3c3c</item>
+        <item name="themeWindowBg">#202020</item>
+        <item name="themeTextColor1">#7e7e7e</item>
+        <item name="themeTextColor2">#686868</item>
+        <item name="themeDividerColor">#313131</item>
+        <item name="themeToolbarTextColor">#7e7e7e</item>
+
+    </style>
+
+
+</resources>
